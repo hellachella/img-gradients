@@ -10,13 +10,12 @@ html {
 .masthead{
 	background-image: url("../images/logo.svg");
 	background-repeat: no-repeat;
-	background-position: center;
+	background-position: center 10px;
 	background-size: 75px auto;
+	padding-top: 6em;
 }
 
 .masthead h1{
-	padding: 50px;
 	text-align: center;
-	vertical-align: bottom;
 }
 
