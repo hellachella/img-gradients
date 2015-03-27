@@ -5,17 +5,44 @@ html {
 	box-sizing: inherit;
 }
 
-
+body{
+margin: 0;
+}
 
 .masthead{
-	background-image: url("../images/logo.svg");
-	background-repeat: no-repeat;
-	background-position: center 10px;
-	background-size: 75px auto;
+	background-image: url("../images/logo.svg"), url("../images/green_cup.png");
+	background-repeat: no-repeat, repeat;
+	background-position: center 10px, left top;
+	background-size:  75px auto, 200px auto;
 	padding-top: 6em;
+	margin: 0;
 }
 
 .masthead h1{
 	text-align: center;
 }
 
+h1{
+	margin: 0;
+}
+img{
+	width: 100%;
+	display: block;
+}
+
+.box{
+	background-color: #3b3a33;
+	padding: 1em;
+}
+
+.btn {
+
+	display: inline-block; /*display inline-block makes it so that you can add padding to an inline element*/
+	padding: 0.5em 0.75em;
+	text-decoration: none;
+	border-radius: 10px;
+	color: #fff;
+	background-color: #a7ad97;
+	background-image: linear-gradient(to bottom, #a7ad97, #5a5d51); /*direction (45deg etc- to right), 2 colours start and end,*/
+	margin: 0 auto;
+}
