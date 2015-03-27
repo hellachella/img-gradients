@@ -1,0 +1,22 @@
+html {
+	box-sizing: border-box;
+}
+*,*::before, *::after {
+	box-sizing: inherit;
+}
+
+
+
+.masthead{
+	background-image: url("../images/logo.svg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: 75px auto;
+}
+
+.masthead h1{
+	padding: 50px;
+	text-align: center;
+	vertical-align: bottom;
+}
+
